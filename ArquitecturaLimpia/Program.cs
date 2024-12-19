@@ -23,7 +23,7 @@ using (var contexto = new AppDbContext(opciones.Options))
     {
         //Insertar Rol
 
-        Console.WriteLine("Ingrese los datos del rol:");
+        Console.WriteLine("Ingrese los datos del ROLES:");
         var rol = new Rol
         {
             Nombre = ObtenerEntradaTeclado("Nombre"),
