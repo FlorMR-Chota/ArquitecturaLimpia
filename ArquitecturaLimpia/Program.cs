@@ -36,7 +36,7 @@ using (var contexto = new AppDbContext(opciones.Options))
 
         //Lista de Roles
         var roles = await unidadDeTrabajo.Roles.ObtenerTodosAsync();
-        Console.WriteLine("Lista de roles existente");
+        Console.WriteLine("LISTA DE ROLES EXISTENTES");
         foreach (var e_rol in roles)
         {
             Console.WriteLine($"{e_rol.Nombre} = {e_rol.Descripcion}");
